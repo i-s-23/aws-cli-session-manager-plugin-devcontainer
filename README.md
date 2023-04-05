@@ -4,8 +4,12 @@ aws-cli & sessionmanager plugin development environment to Remote Container
 
 ## Features
 
-- aws-cli
-    - sessionmanager plugin
+| Name |  Version  |
+| --- | ------------- |
+| aws-cli |  latest |
+| sessionmanager plugin |  latest |
+| mysql client |  8.0 |
+
 
 ## Requirement
 
@@ -46,3 +50,10 @@ aws-cli & sessionmanager plugin development environment to Remote Container
             session-manager-plugin
             # The Session Manager plugin was installed successfully. Use the AWS CLI to start a session.
         ```
+
+- mysql client
+    - Installability check command
+
+      ```bash
+      mysql --version
+      ```
