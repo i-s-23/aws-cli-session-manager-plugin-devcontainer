@@ -1,0 +1,6 @@
+{
+	"name": "aws cli & session manager",
+	"dockerFile": "Dockerfile",
+	"runArgs": ["--env-file",".env"],
+	"postCreateCommand": "/bin/sh .devcontainer/session-manager-install.sh"
+}
