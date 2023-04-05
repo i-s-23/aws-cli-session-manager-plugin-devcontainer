@@ -1,4 +1,4 @@
-# iac-env
+# aws-cli-session-manager-plugin-devcontainer
 
 aws-cli & sessionmanager plugin development environment to Remote Container
 
